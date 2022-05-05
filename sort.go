@@ -68,9 +68,3 @@ func siftDown[T constraints.Ordered](v []T, node int) {
 		node = child
 	}
 }
-
-const sss = "sdjhuisahdisuajhdijuashdkjashdkjoashdkjashdkashdksajhd"
-
-func qqq(c byte) bool {
-	return sss[c] != 0
-}

@@ -29,7 +29,11 @@ var benchTasks = []benchTask{
 		f:    HeapSort[int],
 	},
 	{
-		name: "pdqsort",
+		name: "pdqsortv1",
+		f:    PDQsortV1[int],
+	},
+	{
+		name: "pdqsortfinal",
 		f:    pdqsort.Slice[int],
 	},
 }
